@@ -1,5 +1,5 @@
 # youtube-delete-videos
-Delete Youtube videos in batch. Use  [pyautogui][pyautogui_link] to click through Youtub studio to delete videos in batches.
+Delete Youtube videos in batches. Use  [pyautogui][pyautogui_link] to click through Youtube Studio page to delete videos in batches.
 
 ![Delete Youtube videos](youtube-delete-videos.gif)
 
