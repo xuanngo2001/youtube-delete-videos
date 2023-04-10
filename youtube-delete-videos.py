@@ -10,21 +10,21 @@ import time
 img_dirname = "C:\\xuan\\vbox-shared\\github-projects\\youtube-delete-videos\\images\\"
 
 def main():
+    while True:
+        # Select all videos
+        (x, y) = wait_for_image(img_dirname+"video-checkbox.png")
+        print(x, y)
+        x2 = x - 30
+        y2 = y
 
-    # Select all videos
-    (x, y) = wait_for_image(img_dirname+"video-checkbox.png")
-    print(x, y)
-    x2 = x - 30
-    y2 = y
+        pyautogui.moveTo(x2, y2)
+        pyautogui.click()
 
-    pyautogui.moveTo(x2, y2)
-    pyautogui.click()
-
-    # Clicks to delete videos.
-    find_image_n_click(img_dirname+"more-actions.png")
-    find_image_n_click(img_dirname+"delete-forever.png")
-    find_image_n_click(img_dirname+"i-understand.png")
-    find_image_n_click(img_dirname+"delete-forever-button.png")
+        # Clicks to delete videos.
+        find_image_n_click(img_dirname+"more-actions.png")
+        find_image_n_click(img_dirname+"delete-forever.png")
+        find_image_n_click(img_dirname+"i-understand.png")
+        find_image_n_click(img_dirname+"delete-forever-button.png")
 
 
 
