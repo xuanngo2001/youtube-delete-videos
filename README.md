@@ -5,8 +5,8 @@ Delete Youtube videos in batch. Use  [pyautogui][pyautogui_link] to click throug
 
 # Prerequisite
 
-1. Python is installed.
-1. Install `pyautogui`: `pip install pyautogui`
+1. [Python][python_link] is installed.
+1. Install [pyautogui][pyautogui_link]: `pip install pyautogui`
 
 # Run
 
@@ -16,3 +16,4 @@ Delete Youtube videos in batch. Use  [pyautogui][pyautogui_link] to click throug
 1. If it doesn' work, retake the screenshots in `images` directory because you have different screen resolution them mine.
 
 [pyautogui_link]: https://pyautogui.readthedocs.io/en/latest/
+[python_link]: https://www.python.org/downloads/
